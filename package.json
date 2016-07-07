@@ -1,0 +1,15 @@
+{
+  "name": "ericliu121187",
+  "version": "1.0.0",
+  "description": "ericliu121187's personal site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Liu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
