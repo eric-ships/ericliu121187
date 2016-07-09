@@ -10,6 +10,7 @@ Personal website
 ### Usage
 
 ```
+npm install
 node server.js
 open http://localhost:3000
 ```
@@ -18,5 +19,5 @@ It's recommended to use `nodemon` rather than node. I would install it globally.
 
 ### Dependencies
 
-* Node
-* Nodemon (optional)
+* [NPM](https://www.npmjs.com/)
+* [Nodemon](https://github.com/remy/nodemon) (optional)
