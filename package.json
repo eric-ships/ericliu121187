@@ -10,6 +10,7 @@
   "author": "Eric Liu",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "serve-favicon": "^2.3.0"
   }
 }

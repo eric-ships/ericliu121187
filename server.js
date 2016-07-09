@@ -1,9 +1,12 @@
 const express = require('express');
+const favicon = require('serve-favicon');
 const path = require('path');
-const index = require(path.join(__dirname, 'index'));
 
 const app = express();
+const index = require(path.join(__dirname, 'index'));
 const port = process.env.PORT || 3000;
+
+app.use(favicon(path.join(__dirname, 'static', 'favicon.png')));
 
 index.routes.forEach(function(route, i) {
   app.get(route, function(req, res) {
