@@ -1,5 +1,5 @@
 module.exports = {
-  context: "I am a 28-year-old software developer living in Brooklyn, NY. While I don't shy away from databases or back-end, my passion lies in delivering a great UX and implementating modern front-end practices.",
+  context: "I am a 28-year-old software developer living in Brooklyn, NY. While I don't shy away from devOps, databases, or back-end, my passion lies in delivering both a great UX and DX while meeting business needs.",
   message: {
     line1: 'Welcome to my personal site,',
     line2: 'Visit any of the routes by typing them into the url.',
