@@ -1,7 +1,9 @@
 const express = require('express');
-const app = express();
+const path = require('path');
+const index = require(path.join(__dirname, 'index'));
 
-const index = require('./index');
+const app = express();
+const port = process.env.PORT || 3000;
 
 index.routes.forEach(function(route, i) {
   app.get(route, function(req, res) {
@@ -10,7 +12,10 @@ index.routes.forEach(function(route, i) {
   });
 });
 
-app.listen(3000, function () {
-  console.log('Listening on port 3000...');
+app.get('/resume', function(req, res) {
+  res.sendFile(path.join(__dirname, 'static/eric-liu__resume.pdf'));
 });
 
+app.listen(port, function() {
+    console.log('Listening at http://localhost:' + port);
+});

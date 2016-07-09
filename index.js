@@ -1,17 +1,18 @@
 const home = require('./pages/home');
-const resume = require('./pages/resume');
+const json = require('./pages/json');
+
+const routes = ['/', '/json'];
 
 function getJSON(route) {
   switch (route) {
     case '/':
       return home;
       break;
-    case '/resume':
-      return resume;
+    case '/json':
+      return json;
       break;
   }
 }
 
-exports.routes = ['/', '/resume'];
-
+exports.routes = routes;
 exports.getJSON = getJSON;
