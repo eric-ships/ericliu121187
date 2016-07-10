@@ -11,6 +11,9 @@ app.use(favicon(path.join(__dirname, 'static', 'favicon.png')));
 index.routes.forEach(function(route, i) {
   app.get(route, function(req, res) {
     res.setHeader('Content-Type', 'application/json');
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
     res.send(JSON.stringify(index.getJSON(route), null, '  '));
   });
 });
