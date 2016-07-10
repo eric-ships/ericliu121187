@@ -30,7 +30,7 @@ module.exports = {
         name: 'Rutgers University'
       }
     ],
-    interests: ['jogging, Fastbreak league basketball coach, programming tutoring, fantasy football, coffee'],
+    interests: ['jogging', 'Fastbreak league basketball coach', 'programming tutoring', 'fantasy football', 'coffee'],
     preferences: {
       indentation: ['spaces', '2'],
       orderOfProperties: 'abc',
