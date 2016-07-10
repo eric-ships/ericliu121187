@@ -1,4 +1,5 @@
 module.exports = {
+  banner: 'Check out my current project at i-am-h.com!',
   context: "I am a 28-year-old software developer living in Brooklyn, NY. While I don't shy away from devOps, databases, or back-end, my passion lies in delivering both a great UX and DX while meeting business needs.",
   message: {
     line1: 'Welcome to my personal site,',
@@ -15,8 +16,7 @@ module.exports = {
   updates: [
     {
       date: '2016-07-08',
-      mood: 'honing react, redux and fiddling around with basic NLP',
-      project: 'i-am-h.com'
+      mood: 'honing react, redux and fiddling around with basic NLP'
     }
   ]
 }

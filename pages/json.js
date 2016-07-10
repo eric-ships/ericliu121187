@@ -65,10 +65,11 @@ module.exports = {
           'Write documentation for dev team on Github Wiki and other departments on Google Sites/Docs detailing workflows, troubleshooting, and potential future issues',
           'Communicate with third-party APIs such as Pipedrive, MailChimp'
         ],
-        title: 'Senior Software Developer',
+        titles: ['Senior Software Developer', 'Software Developer'],
         websites: ['https://www.hirepurpose.com/', 'http://taskandpurpose.com/']
       },
       {
+        company: '9mmedia',
         dates: {
           end: '2013-8',
           start: '2013-06'
@@ -78,10 +79,64 @@ module.exports = {
           state: 'NY'
         },
         responsibilities: [
-          'Worked with SASS, Coffeescript, HAML, and Backbone on Hirepurpose client project , where I subsequently got hired in-house'
+          'Worked with SASS, Coffeescript, HAML, and Backbone on Hirepurpose client project, where I subsequently got hired in-house'
         ],
-        title: 'Software Developer',
-        websites: ['https://www.hirepurpose.com/']
+        titles: ['Software Developer'],
+        websites: ['https://www.hirepurpose.com/', 'https://officesnapshots.com/2011/12/12/9mmedias-wonderfully-elegant-nyc-office/']
+      },
+      {
+        company: 'Madras NYC'
+        dates: {
+          end: '2012-12',
+          start: '2012-06'
+        },
+        location: {
+          city: 'New York',
+          state: 'NY'
+        },
+        responsibilities: [
+          'Supervised entire newsletter emails that reflected the brand identity and marketing goal of the client',
+          'Implemented a system of consumer-relationship management through automated trigger emails',
+          'Formulated hypotheses and carried A/B and multivariate testing that was keeping in line with the industry’s best practices for utm parameters, open rates, spam rates, and click rates using Experian email software and Google Analytics',
+          'Crafted Facebook Ad campaigns while testing keywords and images to increase interaction rates',
+          'Approached potential clients including cold-calling, built customized pitch decks, closed sales that generated thousands of revenue, and managed client accounts'
+        ],
+        titles: ['Digital Marketing Manager', 'Business Development'],
+        websites: ['https://techcrunch.com/2013/03/19/dropgifts/']
+      },
+      {
+        dates: {
+          end: '2012-05',
+          start: '2011-08'
+        },
+        location: {
+          city: 'New York',
+          state: 'NY'
+        },
+        responsibilities: [
+          'Recruited two technical co-founders and created a Ruby on Rails web application',
+          'Performed market research, analyzed inefficiencies, and created a business plan and revenue model',
+          'Failed'
+        ],
+        titles: ['Web Developer'],
+        websites: []
+      },
+      {
+        dates: {
+          end: '2011-10',
+          start: '2008-08'
+        },
+        location: {
+          city: 'New York',
+          state: 'NY'
+        },
+        responsibilities: [
+          'Profited $250,000+ at 200/hr through multi-tabling 20+ 6-Max tables concurrently',
+          'Coached 10+ players of ages ranging from 18 - 44 on individual chip modeling strategy, game theory and metagame, risk vs. reward concepts',
+          'Achieved Supernove Elite status in 2009 and 2010'
+        ],
+        titles: ['Online Poker Player', 'Online Poker Coach'],
+        websites: []
       }
     ]
   }
