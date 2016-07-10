@@ -85,7 +85,7 @@ module.exports = {
         websites: ['https://www.hirepurpose.com/', 'https://officesnapshots.com/2011/12/12/9mmedias-wonderfully-elegant-nyc-office/']
       },
       {
-        company: 'Madras NYC'
+        company: 'Madras NYC',
         dates: {
           end: '2012-12',
           start: '2012-06'
