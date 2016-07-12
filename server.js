@@ -13,7 +13,7 @@ index.routes.forEach(function(route, i) {
     res.setHeader('Content-Type', 'application/json');
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET');
-    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     res.send(JSON.stringify(index.getJSON(route), null, '  '));
   });
 });
