@@ -12,7 +12,7 @@ index.routes.forEach(function(route, i) {
   app.get(route, function(req, res) {
     res.setHeader('Content-Type', 'application/json');
     res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Methods', 'GET');
+    res.header('Access-Control-Allow-Methods', 'GET, POST');
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     res.send(JSON.stringify(index.getJSON(route), null, '  '));
   });
